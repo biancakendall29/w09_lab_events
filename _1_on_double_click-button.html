@@ -14,19 +14,9 @@
   <h2>JavaScript HTML Events - double click</h2>
   <p id="date"></p>
   <!-- TODO use an event (double click) to call displayDate() -->
-  <script type = "text/javascript">
-    const but = document.querySelector('#button');
-    const paragraph = document.querySelector(".paragraph");
 
-    const doubleClick = (event)=> {
-      paragraph.innerHTML = displayDate();
-    };
-
-    
-  </script>
-
-
-  <button type="button"ondblclick = "doubleClick()">Double click me to display Date.</button>
+  <button type="button" ondblclick = "displayDate()">Double click me to display Date.</button>
+  <!-- ondblclick = "doubleClick()"  -->
 
 
 </body>
